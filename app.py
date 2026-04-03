@@ -6,7 +6,7 @@ st.set_page_config(page_title="Fleet Tracker", layout="wide")
 st.title("🏥 Equipment & Loaner Tracker")
 
 # Connect to Google Sheets
-url = "YOUR_GOOGLE_SHEET_LINK_HERE"
+url = "https://docs.google.com/spreadsheets/d/1V-3BF0ON6fzOehMn56R5w4khP2WjAF-kp8QZzPlcLgU/edit?usp=sharing"
 conn = st.connection("gsheets", type=GSheetsConnection)
 
 # Read Data
